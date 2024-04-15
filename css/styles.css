@@ -1,0 +1,35 @@
+/* ---------------- nav bar ------------------- */
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    
+    background-color: gray;
+    
+}
+      
+/* nav bar style for each item*/
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+/* nav bar style for links*/
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 2rem;
+}
+      
+/* nav bar style for links when the user hover the mouse*/
+nav ul li a:hover {
+    color:yellow;
+}
+
+footer {
+    background-color:gray;
+    color:white;
+    text-align: center;
+    padding: 10px 0;
+    
+  }
